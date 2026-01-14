@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+body{
+    background-color:black;
+    color: white;
+}
+
+header{
+    padding: 2rem;
+    background-color: green;
+    text-align: center;
+}
+
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+section figure img{
+    display:flex;
+    flex-direction: column;
+    width: 90px;
+   height: 90px;
+}
+
+section input{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.container{
+    padding: 0px 50px;
+   
+}
+
+input[type="radio"], input[type="checkbox"]{
+accent-color: green;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="email"]{
+    width: 50%;
+    padding: 0.6rem;
+    border: 2px solid green;
+    outline: none;
+    border-radius: 5px;
+}
+
+ table{
+    width: 50%;
+    padding: 0.6rem;
+    border: 2px solid;
+    color: green;
+    outline: none;
+    border-radius: 5px; 
+}
+
+tr{
+    color: white
+}
+
+fieldset{
+    width: 40%;
+    padding: 0.6rem;
+    color:green;
+    border: 2px solid;
+    border-radius: 5px;  
+}
+
+textarea{
+     width: 100%;
+    padding: 0.6rem;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
